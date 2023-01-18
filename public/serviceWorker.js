@@ -3,7 +3,7 @@ const urlsToCache = ["index.html", "offline.html"];
 
 const self = this;
 
-// Install SW
+// Install Service Worker
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
@@ -23,7 +23,7 @@ self.addEventListener("fetch", (event) => {
   );
 });
 
-// Activate the SW
+// Activate the Service Worker
 self.addEventListener("activate", (event) => {
   const cacheWhitelist = [];
   cacheWhitelist.push(CACHE_NAME);
