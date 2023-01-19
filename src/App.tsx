@@ -1,13 +1,12 @@
 import React from "react";
-// import logo from "../public/images/JUPIT_Logo.png";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} style={{ width: "50%", height: "2rem" }} alt="logo" /> */}
-        <p>App component</p>
-      </header>
+    <div>
+      <Navbar />
+      <Hero />
     </div>
   );
 };
