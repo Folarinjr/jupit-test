@@ -6,7 +6,7 @@ import Avatar from "../images/avatar.png";
 
 const Hero = () => {
   return (
-    <div className="hero-container">
+    <section className="hero-container">
       <div className="hero-text-box">
         <div className="hero-text-box-wrapper">
           <h2 className="hero-header-text">
@@ -37,7 +37,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
