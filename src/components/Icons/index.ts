@@ -1,3 +1,9 @@
+export { default as Check } from "./Check";
+export { default as Flash } from "./Flash";
 export { default as StrokeRight } from "./StrokeRight";
 export { default as Vector } from "./Vector";
+export { default as BuyCrypto } from "./BuyCrypto";
+export { default as EmptyWallet } from "./EmptyWallet";
+export { default as Ranking } from "./Ranking";
 export { default as StarImg } from "./StarImg";
+export { default as StarTestimonial } from "./StarTestimonial";

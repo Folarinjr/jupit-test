@@ -22,7 +22,7 @@ const Services = () => {
               </p>
             </div>
             <div className="bttn">
-              <a href="#">
+              <a href="#services">
                 Get Started{" "}
                 <div className="arrow-box">
                   <StrokeRight fill="none" stroke="currentColor" />
@@ -47,7 +47,7 @@ const Services = () => {
               </p>
             </div>
             <div className="bttn">
-              <a href="#">
+              <a href="#services">
                 Get Started{" "}
                 <div className="arrow-box">
                   <StrokeRight fill="none" stroke="currentColor" />
@@ -72,7 +72,7 @@ const Services = () => {
               </p>
             </div>
             <div className="bttn">
-              <a href="#">
+              <a href="#services">
                 Get Started{" "}
                 <div className="arrow-box">
                   <StrokeRight fill="none" stroke="currentColor" />
@@ -97,7 +97,7 @@ const Services = () => {
               </p>
             </div>
             <div className="bttn">
-              <a href="#">
+              <a href="#services">
                 Get Started{" "}
                 <div className="arrow-box">
                   <StrokeRight fill="none" stroke="currentColor" />
