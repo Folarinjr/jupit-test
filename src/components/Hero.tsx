@@ -24,16 +24,16 @@ const Hero = () => {
       <div className="hero-pic-box">
         <div className="hero-pic-wrapper">
           <div className="hero-image-box">
-            <img src={Person} alt="Person" />
+            <img src={Person} alt="Person" loading="lazy" />
           </div>
           <div className="quick-buy-box">
-            <img src={Quick} alt="Quick buy" />
+            <img src={Quick} alt="Quick buy" loading="lazy"/>
           </div>
           <div className="transaction-box">
-            <img src={Transaction} alt="Quick buy" />
+            <img src={Transaction} alt="Quick buy" loading="lazy"/>
           </div>
           <div className="avatar-box">
-            <img src={Avatar} alt="Quick buy" />
+            <img src={Avatar} alt="Quick buy" loading="lazy"/>
           </div>
         </div>
       </div>

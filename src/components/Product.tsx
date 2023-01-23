@@ -110,7 +110,7 @@ const Product = () => {
             </div>
           </div>
           <div className="picture-container">
-            <img src={Iphone} alt="Iphone" />
+            <img src={Iphone} alt="Iphone" loading="lazy"/>
           </div>
         </div>
       </div>
